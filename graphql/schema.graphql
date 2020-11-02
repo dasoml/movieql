@@ -1,3 +1,9 @@
+type kkamange {
+  name: String!
+  age: Int!
+  gender: String!
+}
+
 type Query {
-  name: Int!
+  person: kkamange!
 }

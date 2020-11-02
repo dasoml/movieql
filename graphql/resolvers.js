@@ -1,6 +1,12 @@
+const kkamange = {
+  name: "까망이",
+  age: 8,
+  gender: "male",
+};
+
 const resolvers = {
   Query: {
-    name: () => "nicolas",
+    person: () => kkamange,
   },
 };
 
